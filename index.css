@@ -19,8 +19,8 @@ a:hover {
   text-decoration: none;
 }
 
-.container {
-  margin-top: 20px;
+.all_container {
+  margin: 100px;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
@@ -34,7 +34,7 @@ a:hover {
 
 .illustration {
   background-color: white;
-  height: 90vh;
+  height: 570px;
   width: 30vw;
   border-radius: 20px;
 }
@@ -93,7 +93,7 @@ a:hover {
 
   .illustration {
     width: 80vw;
-    height: 75vh;
+    height: 500px;
   }
 
   .btn {
