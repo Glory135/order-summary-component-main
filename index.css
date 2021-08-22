@@ -1,0 +1,110 @@
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #e0e8ff;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(133, 127, 127);
+}
+h1 {
+  font-weight: 900;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 20px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.image {
+  width: 30vw;
+  border-radius: 20px 20px 0 0;
+}
+
+.illustration {
+  background-color: white;
+  height: 90vh;
+  width: 30vw;
+  border-radius: 20px;
+}
+
+.annual_plan {
+  background-color: #f8f9fe;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  margin: 0 40px;
+}
+
+.annual_plan p {
+  margin: 0;
+}
+
+.btn {
+  background-color: #382ae1;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+  margin: 30px;
+}
+.btn:hover {
+  background-color: #766bf3;
+  cursor: pointer;
+}
+
+.cancel {
+  color: #757c92;
+  font-weight: 500;
+}
+
+.cancel:hover {
+  color: #262f4b;
+  cursor: pointer;
+}
+
+@media (max-width: 375px) {
+  p {
+    font-size: 12px;
+  }
+
+  .container {
+    margin-top: 50px;
+  }
+
+  .image {
+    width: 80vw;
+  }
+
+  .illustration {
+    width: 80vw;
+    height: 75vh;
+  }
+
+  .btn {
+    width: 250px;
+  }
+
+  .annual_plan {
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    margin: 0 17px;
+  }
+}
